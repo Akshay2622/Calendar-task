@@ -1,0 +1,7 @@
+venv
+credentials.json
+token.json
+dockerfile
+docker-compose.yml
+.env
+__pycache__
