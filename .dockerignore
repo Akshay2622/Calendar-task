@@ -1,0 +1,53 @@
+# Python cache / build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Docker / Compose / Git
+.dockerignore
+.docker-compose.override.yml
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+.git-credentials
+
+# OS / IDE files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.idea/
+.vscode/
+
+# Credentials (keep outside Docker)
+*.json
+*.pem
+*.crt
+*.key
+token.json
+
+# Node (if frontend is inside repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Cache
+__cache__/
+*.cache

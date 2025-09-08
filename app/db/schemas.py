@@ -21,5 +21,7 @@ class Event(EventBase):
     id: int
     google_event_id: Optional[str] = None
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True  # This enables from_orm
+    }
+
